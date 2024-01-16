@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style18.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar-expand  navbar navbar-dark bg-dark">
+        <nav class=""></nav>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Carousel</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="A btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleDark" class="carousel .text-light">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/6742/production/_130243462_greatwhitegettyimages-520699472.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>SHARK</h5>
+                    <p>Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Tursiops_truncatus_01.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DOLPHIN</h5>
+                    <p>A dolphin is an aquatic mammal within the infraorder Cetacea. Dolphin species belong to the families Delphinidae (the oceanic dolphins), Platanistidae (the Indian river dolphins), Iniidae (the New World river dolphins), Pontoporiidae (the brackish dolphins), and possibly extinct Lipotidae (baiji or Chinese river dolphin).</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://animals.pibig.info/uploads/posts/2023-03/1680201353_animals-pibig-info-p-kasatka-riba-zhivotnie-vkontakte-2.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>KASATKA</h5>
+                    <p>Kasatka was captured off the southeastern coast of Iceland on October 26, 1978, with another young female whale named Kahana. Both were estimated to be around 2 years old. The two whales were housed in a sea pen in Grindavík before being shipped to SeaWorld later that year.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="section1 d-flex gap-5 pt-5 justify-content-around">
+        <div class="card" style="width: 11rem; border: 0;">
+            <img src="https://i.natgeofe.com/n/c6f7cee9-cde6-44a2-a686-9a80f5bfc1e8/01_mercury_pia15190_orig.jpg"
+                class="rounded-circle" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Mercury</h3>
+                <p class="card-text">Mercury is the first planet from the Sun and the smallest planet in the Solar System.</p>
+                <a href="#" class="btn btn-secondary">View details</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 11rem; border: 0">
+            <img src="https://images.allthescience.org/slideshow-mobile-small/view-of-venus-against-black.jpg"
+                class="rounded-circle" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Venera</h3>
+                <p class="card-text">The Venera which means program was the name given to a series of space probes developed.</p>
+                <a href="#" class="btn btn-secondary">View details</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 11rem; border: 0">
+            <img src="https://popsci.com.tr/wp-content/uploads/2020/08/2NOU6WXXEBTC54YGNNCQQIPW7I1.jpg"
+                class="rounded-circle" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Earth</h3>
+                <p class="card-text">Earth is the third planet from the Sun and the only place known in the universe where life has originated.</p>
+                <a href="#" class="btn btn-secondary">View details</a>
+            </div>
+        </div>
+
+
+    </div>
+    <hr class="hr mt-5">
+
+    <div class="section2 d-flex m-5">
+        <div class="sectionA m-5">
+            <h1 class="display-5">Wolfgang Amadeus Mozart</h1>
+            <p class="h5 text-secondary">Wolfgang Amadeus Mozart[a][b] (27 January 1756 – 5 December 1791) was a prolific and influential composer of the Classical period.</p>
+        </div>
+        <div class="sectionB">
+            <img src="https://friendsofchambermusic.ca/fcm-wp/wp-content/uploads/2017/06/152550-131-ED0EC610.jpg"
+                class="img-fluid" alt="1">
+        </div>
+    </div>
+    <hr class="hr mt-5">
+
+    <div class="section2 d-flex m-5">
+        <div class="sectionB">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/beethoven-600x600.jpg"
+                class="img-fluid" alt="1">
+        </div>
+        <div class="sectionA  m-5">
+            <h1 class="display-5">Ludwig van Beethoven</h1>
+            <p class="h5 text-secondary">Ludwig van Beethoven[n 1] (baptised 17 December 1770 – 26 March 1827) was a German composer and pianist.</p>
+        </div>
+    </div>
+    <hr class="hr mt-5">
+
+    <div class="section2 d-flex m-5">
+        <div class="sectionA m-5">
+            <h1 class="display-5">İohann Sebastyan Bax</h1>
+            <p class="h5 text-secondary">İohann Sebastian Bax Almaniyanın Turingiya vilayətinin Eyzenax şəhərində anadan olmuşdur.</p>
+        </div>
+
+        <div class="sectionB">
+            <img src="https://www.aravot.am/wp-content/uploads/2018/01/Iohan-sebastian-Bax.jpg"
+                class="img-fluid" alt="1">
+        </div>
+
+    </div>
+    <hr class="hr mt-5">
+    <div class="End d-flex  justify-content-between p-5">
+        <div class="End1 d-flex">
+            <p>© 2017-2018 Company, Inc. ·</p>
+            <p class="text-primary">Privacy</p>
+            <p class="text-primary">· Terms</p>
+        </div>
+        <div class="End11 d-flex">
+            <p class="text-primary">Back to top</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
